@@ -1,0 +1,16 @@
+.spiner{
+    padding: 100px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    filter: blur(1px);
+    border: 30px solid white;
+    border-top: 20px solid rgb(45, 182, 206);
+    animation: nick 2.5s linear infinite;
+  }
+  @keyframes nick{
+    to{
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+    <style>
+        body {
+  background: #182028;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 9vmin;
+  color: #8bf;
+  text-align: left;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  margin: 1rem 0 1rem 2rem;
+}
+
+/* Typewriter effect 1 */
+@keyframes typing {
+    
+  0.0000%, 27.3488% { content: ""; }
+  1.1395%, 26.2093% { content: "d"; }
+  2.2791%, 25.0698% { content: "de"; }
+  3.4186%, 23.9302% { content: "dev"; }
+  4.5581%, 22.7907% { content: "deve"; }
+  5.6977%, 21.6512% { content: "devel"; }
+  6.8372%, 20.5116% { content: "develo"; }
+  7.9767%, 19.3721% { content: "develop"; }
+  9.1163%, 18.2326% { content: "develope"; }
+  10.2558%, 17.0930% { content: "developer"; }
+
+  30.7674%, 51.2791% { content: ""; }
+  31.9070%, 50.1395% { content: "w"; }
+  33.0465%, 49.0000% { content: "wr"; }
+  34.1860%, 47.8605% { content: "wri"; }
+  35.3256%, 46.7209% { content: "writ"; }
+  36.4651%, 45.5814% { content: "write"; }
+  37.6047%, 44.4419% { content: "writer"; }
+
+  54.6977%, 75.2093% { content: ""; }
+  55.8372%, 74.0698% { content: "r"; }
+  56.9767%, 72.9302% { content: "re"; }
+  58.1163%, 71.7907% { content: "rea"; }
+  59.2558%, 70.6512% { content: "read"; }
+  60.3953%, 69.5116% { content: "reade"; }
+  61.5349%, 68.3721% { content: "reader"; }
+
+  78.6279%, 96.8605% { content: ""; }
+  79.7674%, 95.7209% { content: "h"; }
+  80.9070%, 94.5814% { content: "hu"; }
+  82.0465%, 93.4419% { content: "hum"; }
+  83.1860%, 92.3023% { content: "huma"; }
+  84.3256%, 91.1628% { content: "human"; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+  
+  @keyframes sequencePopup {
+    0%, 100% { content: "developer"; }
+    25% { content: "writer"; }
+    50% { content: "reader"; }
+  }
+
+  .typewriter::before {
+    content: "developer";
+    animation: sequencePopup 12s linear infinite;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <body>
+        <div id="root">
+            <div style="position: relative;">
+                <div id="main-wrapper">
+                    <header id="header" class="sticky-top">
+                        <nav
+                            class="primary-menu navbar navbar-expand-none navbar-overlay  bg-transparent border-bottom-0 text-5 fw-600  navbar-overlay-dark">
+                            <div class="container"><a class="logo" title="Callum" style="cursor: pointer;"><img
+                                        src="images/logo.png" alt="Callum"></a>
+                                <div class="text-3 ms-auto me-2 "><span class="text-4 me-2"><i
+                                            class="fas fa-phone"></i></span>(060) 444 434 444</div><button
+                                    class="navbar-toggler collapsed "
+                                    type="button"><span></span><span></span><span></span></button>
+                                <div id="header-nav" class="collapse navbar-collapse ">
+                                    <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item"><a class="nav-link  active"
+                                                    style="cursor: pointer;">Home</a></li>
+                                            <li class="nav-item"><a class="nav-link " style="cursor: pointer;">About
+                                                    Me</a></li>
+                                            <li class="nav-item"><a class="nav-link " style="cursor: pointer;">What I
+                                                    Do</a></li>
+                                            <li class="nav-item"><a class="nav-link "
+                                                    style="cursor: pointer;">Resume</a></li>
+                                            <li class="nav-item"><a class="nav-link "
+                                                    style="cursor: pointer;">Portfolio</a></li>
+                                            <li class="nav-item"><a class="nav-link " style="cursor: pointer;">FAQ</a>
+                                            </li>
+                                            <li class="nav-item"><a class="nav-link " style="cursor: pointer;">Client
+                                                    Speak</a></li>
+                                            <li class="nav-item"><a class="nav-link " style="cursor: pointer;">Contact
+                                                    Me</a></li>
+                                        </ul>
+                                        <ul
+                                            class="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
+                                            <li class="social-icons-twitter"><a
+                                                    href="https://twitter.com/harnishdesign/" target="_blank"
+                                                    rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+                                            <li class="social-icons-facebook"><a
+                                                    href="http://www.facebook.com/harnishdesign/" target="_blank"
+                                                    rel="noopener noreferrer"><i class="fab fa-facebook"></i></a></li>
+                                            <li class="social-icons-instagram"><a href="http://www.instagram.com/"
+                                                    target="_blank" rel="noopener noreferrer"><i
+                                                        class="fab fa-instagram"></i></a></li>
+                                            <li class="social-icons-linkedin"><a href="http://www.linkedin.com/"
+                                                    target="_blank" rel="noopener noreferrer"><i
+                                                        class="fab fa-linkedin-in"></i></a></li>
+                                            <li class="social-icons-dribbble"><a
+                                                    href="http://www.dribbble.com/harnishdesign/" target="_blank"
+                                                    rel="noopener noreferrer"><i class="fab fa-dribbble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                    <div id="content" role="main">
+                        <section id="home" class="bg-primary d-flex fullscreen position-relative py-5">
+                            <div class="container my-auto py-4">
+                                <div class="row">
+                                    <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn"
+                                        style="visibility: visible;">
+                                        <h1 class="text-12 fw-300 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
+                                        <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1">
+                                            <!-- <div class="Typewriter" data-testid="typewriter-wrapper"><span
+                                                    class="Typewriter__wrapper">Designer</span><span
+                                                    class="Typewriter__cursor">|</span></div> -->
+                                                    <h1 aria-label="Hi! I'm a developer">
+                                                        &nbsp;<span class="typewriter thick"></span>
+                                                    </h1>
+                                        </h2>
+                                        <p class="text-5">based in Los Angeles, USA.</p><a
+                                            class="btn btn-dark rounded-0 smooth-scroll mt-3"
+                                            style="cursor: pointer;">View My Works</a><a
+                                            class="btn btn-link text-dark smooth-scroll mt-3"
+                                            style="cursor: pointer;">Contact Me<span class="text-4 ms-2"><i
+                                                    class="far fa-arrow-alt-circle-down"></i></span></a>
+                                    </div>
+                                    <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
+                                        <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn"
+                                            style="visibility: visible;"><img class="img-fluid rounded-pill d-block"
+                                                src="./image/IMG_0290.JPG" title="I'm Callum" alt="I'm David"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="scroll-down-arrow text-dark smooth-scroll" style="cursor: pointer;"><span
+                                    class="animated"><i class="fas fa-arrow-down"></i>
+                                </span></a>
+                        </section>
+                        <section id="about" class="section">
+                            <div class="container">
+                                <p class="text-center mb-2 wow fadeInUp"
+                                    style="visibility: hidden; animation-name: none;"><span
+                                        class="bg-primary text-dark px-2">About Me</span></p>
+                                <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp"
+                                    style="visibility: hidden; animation-name: none;">Know Me More</h2>
+                                <div class="row">
+                                    <div class="col-lg-8 text-center text-lg-start wow fadeInUp"
+                                        style="visibility: hidden; animation-name: none;">
+                                        <h2 class="text-8 fw-400 mb-3">Hi, I'm <span
+                                                class="fw-700 border-bottom border-3 border-primary">Callum Smith</span>
+                                        </h2>
+                                        <p class="text-5">I'm a designer &amp; developer with a passion for web design.
+                                            I enjoy developing simple, clean and slick websites that provide real value
+                                            to the end user. Thousands of clients have procured exceptional results
+                                            while working with me. Delivering work within time and budget which meets
+                                            client’s requirements is our moto.</p>
+                                    </div>
+                                    <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s"
+                                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                                        <div class="featured-box style-4">
+                                            <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle">
+                                                <span class="wow heartBeat" data-wow-delay="1.3s"
+                                                    style="visibility: hidden; animation-delay: 1.3s; animation-name: none;">22</span>
+                                            </div>
+                                            <h3 class="text-7 wow rubberBand" data-wow-delay="2s"
+                                                style="visibility: hidden; animation-delay: 2s; animation-name: none;">
+                                                Years of <span class="fw-700">Experiance</span></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row gy-3 mt-4">
+                                    <div class="col-6 col-lg-3 wow fadeInUp"
+                                        style="visibility: hidden; animation-name: none;">
+                                        <p class="text-muted fw-500 mb-0">Name:</p>
+                                        <p class="text-4 text-dark fw-600 mb-0">Callum Smith</p>
+                                    </div>
+                                    <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s"
+                                        style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                                        <p class="text-muted fw-500 mb-0">Email:</p>
+                                        <p class="text-4 fw-600 mb-0"><a class="link-dark"
+                                                href="mailto:chat@callum.com">chat@callum.com</a></p>
+                                    </div>
+                                    <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s"
+                                        style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+                                        <p class="text-muted fw-500 mb-0">Date of birth:</p>
+                                        <p class="text-4 text-dark fw-600 mb-0">11 November, 1987</p>
+                                    </div>
+                                    <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s"
+                                        style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+                                        <p class="text-muted fw-500 mb-0">From:</p>
+                                        <p class="text-4 text-dark fw-600 mb-0">Los Angeles, USA.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                       
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html> 

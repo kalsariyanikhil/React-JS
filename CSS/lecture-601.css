@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+}
+.main{
+    display: flex;   
+    background-color: whitesmoke;
+    height: 500px; 
+       
+}
+ img{
+    position: absolute;
+    top:50px;
+    right: 140px;
+    border-radius: 15px;
+}
+.text{
+    position: absolute;
+    top: 65px;
+    margin-top: 10px;
+    right: 200px;
+}
+.text h3{
+    color: azure;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text h1{
+    color: rgb(241, 183, 34);
+    font-weight: 1500;
+    text-transform: uppercase;
+}
+.bg{
+    position: absolute;
+    top: 60px;
+    margin-top: 140px;
+    right: 240px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+}
+.bg p{
+    text-align: center;
+}
+ .bg-1{
+    position: absolute;
+    top:50px;
+    right: 600px;
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: rgba(224, 10, 32, 0.937);
+ } 
+ .bg-1 img{
+    height: 250px;
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    left: 0;
+    margin: auto;  
+} 
+.text-1 h3{
+    position: absolute;
+    top: 70px;
+    right: 650px;
+    text-transform: uppercase;
+    color: white;
+}
+.text-1 h1{
+    position: absolute;
+    font-size: 35px;
+    top: 100px;
+    right: 700px;
+    font-weight: 900;
+    color: white;
+} 
+.text-1 h2{
+    position: absolute;
+    top: 150px;
+    right: 700px;
+    font-weight: 900;
+    color: yellow;
+}
+.text-1 p{
+    position: absolute;
+    top: 190px;
+    right: 700px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.box-3{
+    background-image: url(../HTML/image/asset\ 41.png);
+    border-radius: 15px;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 50px;
+    margin-left: 50px;
+    background-color: rgb(2, 44, 35);
+} */
+ .box-3 img{
+    position: absolute;
+    top: 0px;
+    height: 400px;
+    width: 400px;
+}
+.bg-2 img{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    top: 100px;
+    left: 0;
+}
+.bg-3 img{
+    position: absolute;
+    height: 100px;
+    width: 80px;
+    bottom: 100px;
+    left: 20px;
+    margin: 250px;
+}
+.text-2 h3{
+    position: absolute;
+    left: 140px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+.text-2 h1{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-weight: 900;
+    color: yellow;
+    text-transform: uppercase;
+} 
+ .box-4{
+    border-radius: 10px;
+    position: absolute;
+    height: 170px;
+    width: 770px;
+    top: 280px;
+    left: 485px;
+    background-color: green;
+}
+.box-4 img{
+    position: absolute;
+    top: 0;
+}
+.bg-4 img{
+    height: 200px;
+    width: 200px;
+    right: 10px;
+}
+.bg-4{
+    position: absolute;
+    top: -20px;
+    left: 170px;
+}
+.text-3 h3{
+    position: absolute;
+    top:10px;
+    left: 250px;
+    color: white;
+    text-transform: uppercase;
+}
+.text-3 h1{
+    position: absolute;
+    top:40px;
+    left: 250px;
+    color: white;
+    text-transform: uppercase;
+}
+.add-1{
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    left: 500px;
+    border-radius: 15px;
+    height: 40px; 
+    width: 100px;
+} 
