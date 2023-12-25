@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>offcanvas-2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar  bg-danger">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">Navbar</a>
+            <button class="btn navbar-toggler border-0 px-1 shadow-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <img style="width: 30px" src="./svg/menu.svg">
+            </button>
+            <div class="offcanvas offcanvas-start bg-danger" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand text-light " href="#">Navbar</a>
+                    <span data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"
+                            style="color: aliceblue; margin-left: 280px;"></i></span>
+                </div>
+
+                <div class="offcanvas-header d-flex d-lg-none">
+                    <a href="javascript:void(0) " class="text-reset p-0" data-bs-dismiss="offcanvas" aria-label="close">
+                    </a>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center" style="margin-top:100px">
+        <h1>Responsive Offcanvas Menu For Bootstrap 5 Example</h1>
+        <p class="lead">A responsive off-canvas navigation system that combines with Bootstrap 5 off-canvas and navbar
+            components.
+        </p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
