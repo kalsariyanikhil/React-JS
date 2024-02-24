@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+  }
+  
+  .box-1 {
+    height: 390px;
+    width: 290px;
+    border: 3px solid black;
+    margin-right: 30px;
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  
+  .box-2 {
+    height: 390px;
+    width: 290px;
+    background-color: rgb(255, 0, 98);
+    margin-right: 30px;
+    margin-top: 100px;
+  }
+  
+  .box-3 {
+    height: 390px;
+    width: 290px;
+    border: 3px solid black;
+    margin-right: 30px;
+    margin-top: 100px;
+  }
+  
+  img {
+    height: 80px;
+    margin-left: 105px;
+    margin-top: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  
+  .box-2 h1 {
+    color: white;
+  }
+  
+  .box-2 p {
+    color: white;
+  }
+  
+  button {
+    width: 230px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 30px;
+  }
+  
+  .box-2 button {
+    width: 230px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    color: rgb(255, 0, 98);
+    background-color: white;
+    margin-left: 30px;
+  }/*# sourceMappingURL=lecture1.css.map */
+  

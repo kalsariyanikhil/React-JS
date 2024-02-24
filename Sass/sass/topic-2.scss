@@ -1,0 +1,54 @@
+@mixin flex($a-i:center , $j-c:center)
+{
+    display: flex ;
+    align-items: $a-i ;
+    justify-content: $j-c ;
+}
+
+ul{
+    background-color: orange ;
+    
+    @include flex;
+    @at-root
+    li
+    {
+        background-color: black;
+         @at-root
+
+        a{
+            color: #fff;
+        }
+    }
+}
+
+.link-2{
+    background-color: rgb(92, 227, 144) ;
+
+    @include flex(center , space-between);
+    @at-root
+    li
+    {
+        background-color: black;
+        @at-root
+
+        a{
+            color: #fff;
+        }
+    }
+}
+
+.link-3{
+    background-color: rgb(149, 23, 187) ;
+
+    @include flex(center , space-around);
+    @at-root
+    li
+    {
+        background-color: black;
+        @at-root
+        a{
+            color: #fff;
+        }
+    }
+}
+

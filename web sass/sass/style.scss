@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+ol ,ul {
+    list-style: none;
+}
+a{
+  text-decoration: none ;  
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+// Nav bar
+
+.navbar{
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  z-index: 12;
+  background-color: white;
+}
+
+.collapse
+{
+  .navbar-nav{
+    li
+    {
+      a
+      {
+        position: relative;
+        text-align: center;
+        color: #222222;
+        padding-left: 8px;
+        padding-right: 20px;
+        font-size: 1.06rem;
+        font-family: "Montserrat", sans-serif;
+
+        &:hover
+        {
+          color: #ff6600;
+        }
+      }
+      }
+    }    
+  }
+  .ticket-bar{
+    background-color: #ff6600;
+    height: 100px;
+    color: white;
+    display: block;
+    padding: 20px;
+    .ticket
+    {
+      span
+      {
+        color: #fff;
+        font-size: 1.125rem;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+        border-left: 1px solid #ffa366;
+        padding-left: 24px;
+     }
+    }
+ }
+
+
+// banner section
+
+.overlay{
+    background-image: url(../images/background/homepage-one-banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;  
+    position: relative;
+  }
+  
+.banner {
+  .block{
+    margin-top: 7.5rem ;
+    p
+    {
+      color: white ;
+      padding: 0%; 
+      margin: 0% ;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-size: 5.5rem;
+      color: #ff6600;
+      font-weight: 500;
+      margin-bottom: 5px;
+      text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-transform: uppercase;
+      font-size: 4.625rem;
+      color: #fff;
+      font-weight: 400;
+      text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+      font-style: italic;
+    }
+    h6 {
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 50px;
+    }
+    button{
+    background: #fff;
+    color: #222222;
+    padding: 15px 40px;
+    border-radius: 0;
+    }
+    }
+  }
+
+.img-2{
+  top: -130px;
+  position: absolute;
+  margin: auto;
+  left: 6px;
+}
+
+// about section
+
+.about{
+  padding: 120px 0;
+}
+h2{
+  font-size: 2.5rem;
+}
+.image-block{
+  background-image: url(../images/background/pattern-background.jpg);
+}
+.img-fluid{
+  border-radius: 50%;
+}
+.alternate{
+  color: #ff6600;
+}
+.description-two{
+  color: #848484;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.btn-main-md{
+  padding: 15px 50px;
+  background: #ff6600;
+  color: #fff;
+}
+.btn-transparent-md{
+  padding: 15px 40px;
+  outline: none;
+  font-size: 0.9375rem;
+  color: #222222;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+}
