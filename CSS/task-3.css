@@ -1,0 +1,18 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.card {
+    background-color: blue;
+    width: 300px;
+    border-radius: 20px;
+    height: 300px;
+    animation: scale 10s linear 1 backwards alternate;
+    animation-play-state: paused;
+}

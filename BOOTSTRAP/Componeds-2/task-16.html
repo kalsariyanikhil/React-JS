@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice-16</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container-fluid bg-light mt-5">
+        <div class="m-3">
+            <div class="pt-3">
+                <span class="me-2">Customers</span>
+                <span style="color: blue;background-color:rgb(222, 236, 250); padding:5px 10px;border-radius: 50px;">240
+                    Vendors</span>
+            </div>
+            <div class="d-flex pt-2">
+                <p class="pt-1" style="font-size: 15px;opacity: 0.7;">These companies have purchased in the last 12
+                    months.</p>
+                <div class="ms-auto">
+                    <button class="btn border border-1" style="background-color: white;"><i
+                            class="bi bi-cloud-arrow-up me-2"></i>Import</button>
+                    <button class="btn btn-primary border border-1" style="opacity: 0.7;"><i
+                            class="bi bi-patch-plus me-2"></i>Add vendor</button>
+                </div>
+            </div>
+            <div class="d-flex mt-2">
+                <div class="btn-group " style="opacity: 0.9;">
+                    <button class="btn btn-light border border-1">View all</button>
+                    <button class="btn border border-1" style="background-color: white;">Monitored</button>
+                    <button class="btn btn-light border border-1" style="background-color: white;">Unmonitored</button>
+                </div>
+                <form class="ms-auto me-1" role="search">
+                    <input class="form-control me-5 pe-5" type="search" placeholder=" Search" aria-label="Search">
+                </form>
+            </div>
+            <div class="mt-4 ">
+                <div class="row border border-1 bg-white rounded-2">
+                    <div class="col-12 p-2" style="opacity: 0.9;">
+                        <span class="me-3">Company<i class="fa-solid fa-arrow-down-a-z ps-2"
+                                style="opacity: 0.8;"></i></span>
+                        <span style="padding-inline-start: 30px;padding-inline-end: 70px;">Status</span>
+                        <span style="padding-inline-start: 50px;padding-inline-end: 150px;">About</span>
+                        <span style="padding-inline-start: 120px;padding-inline-end: 140px;">Users</span>
+                        <span style="padding-inline-start: 50px;">License use</span>
+                    </div>
+                </div>
+
+                <!-- row-1 -->
+                <div class="row border border-1 bg-white rounded-2">
+                    <div class="col-12 p-2 d-flex">
+                        <div style="opacity: 0.9;">
+                            <span class="me-3 d-block" style="font-weight: 500;">Catalog</span>
+                            <a href="#" class="text-decoration-none text-dark">catalogapp.io</a>
+                        </div>
+                        <div style="padding-inline-start: 50px;padding-top: 15px;padding-inline-end: 50px;">
+                            <span
+                                style="color: rgb(19, 191, 19);background-color: rgb(223, 250, 224);border-radius: 50px;padding:5px 10px;">Customer</span>
+                        </div>
+                        <div style="padding-inline-start: 30px;padding-inline-end: 60px;opacity: 0.8;">
+                            <span>Content curating app</span>
+                            <p>Brings all your news into one place</p>
+                        </div>
+                        <div style="padding-inline-start: 10px;padding-inline-end: 10px;padding-top: 15px;">
+                            <img src="./image/asset 0.png" alt=""
+                                style="height: 40px;width: 40px;border: 2px solid white;border-radius: 100%;position:relative;">
+
+                            <img src="./image/asset 1.png" alt=""
+                                style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 20px;">
+
+                            <img src="./image/asset 2.png" alt=""
+                                style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 40px;">
+
+                            <img src="./image/asset 3.png" alt=""
+                                style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 60px;">
+
+                            <span
+                                style="border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 80px;background-color: rgb(212, 222, 242);color: dodgerblue; padding-inline: 10px;padding-block: 8px;">+4</span>
+
+                        </div>
+
+
+                        <div style="margin-top: 30px;opacity: 0.8;">
+                            <div class="progress bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                                style="height: 9px;width: 250px;">
+                                <div class="progress-bar bg-primary" style="width:70%; "></div>
+                            </div>
+                        </div>
+                        <div class="ms-auto me-4" style="margin-top: 20px;opacity: 0.7;">
+                            <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row-2 -->
+
+            <div class="row border border-1 bg-white rounded-2">
+                <div class="col-12 p-2 d-flex">
+                    <div style="opacity: 0.9;">
+                        <span class="me-3 d-block" style="font-weight: 500;">Circooles</span>
+                        <a href="#" class="text-decoration-none text-dark">getcirooles.com</a>
+                    </div>
+                    <div style="padding-inline-start: 30px;padding-top: 15px;padding-inline-end: 50px;">
+                        <span
+                            style="color:black;background-color: rgb(243, 240, 240);border-radius: 50px;padding:5px 13px;opacity: 0.7;">Churned</span>
+                    </div>
+                    <div style="padding-inline-start: 30px;padding-inline-end: 100px;opacity: 0.8;">
+                        <span>Design software</span>
+                        <p>Super lightweight design app</p>
+                    </div>
+                    <div style="padding-inline-start: 10px;padding-inline-end: 10px;padding-top: 15px;">
+                        <img src="./image/asset 0.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;border-radius: 100%;position:relative;">
+
+                        <img src="./image/asset 1.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 20px;">
+
+                        <img src="./image/asset 2.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 40px;">
+
+                        <img src="./image/asset 3.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 60px;">
+
+                        <span
+                            style="border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 80px;background-color: rgb(212, 222, 242);color: dodgerblue; padding-inline: 10px;padding-block: 8px;">+4</span>
+
+                    </div>
+
+
+                    <div style="margin-top: 30px;opacity: 0.8;">
+                        <div class="progress bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 9px;width: 250px;">
+                            <div class="progress-bar bg-primary" style="width:40%; "></div>
+                        </div>
+                    </div>
+                    <div class="ms-auto me-4" style="margin-top: 20px;opacity: 0.7;">
+                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row-3 -->
+
+            <div class="row border border-1 bg-white rounded-2">
+                <div class="col-12 p-2 d-flex">
+                    <div style="opacity: 0.9;">
+                        <span class="me-3 d-block" style="font-weight: 500;">Sisyphus</span>
+                        <a href="#" class="text-decoration-none text-dark">sisyphus.com</a>
+                    </div>
+                    <div style="padding-inline-start: 40px;padding-top: 15px;padding-inline-end: 50px;">
+                        <span
+                            style="color: rgb(19, 191, 19);background-color: rgb(223, 250, 224);border-radius: 50px;padding:5px 13px;opacity: 0.7;">Customer</span>
+                    </div>
+                    <div style="padding-inline-start: 30px;padding-inline-end: 40px;opacity: 0.8;">
+                        <span>Automation and workflow</span>
+                        <p>Time tracking invoicing and expenses</p>
+                    </div>
+                    <div style="padding-inline-start: 10px;padding-inline-end: 15px;padding-top: 15px;">
+                        <img src="./image/asset 0.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;border-radius: 100%;position:relative;">
+
+                        <img src="./image/asset 1.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 20px;">
+
+                        <img src="./image/asset 2.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 40px;">
+
+                        <img src="./image/asset 3.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 60px;">
+
+                        <span
+                            style="border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 80px;background-color: rgb(212, 222, 242);color: dodgerblue; padding-inline: 10px;padding-block: 8px;">+4</span>
+
+                    </div>
+
+
+                    <div style="margin-top: 30px;opacity: 0.8;">
+                        <div class="progress bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 9px;width: 250px;">
+                            <div class="progress-bar bg-primary" style="width:90%; "></div>
+                        </div>
+                    </div>
+                    <div class="ms-auto me-4" style="margin-top: 20px;opacity: 0.7;">
+                        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row-4   -->
+
+            <div class="row border border-1 bg-white rounded-2">
+                <div class="col-12 p-2 d-flex">
+                    <div style="opacity: 0.9;">
+                        <span class="me-3 d-block" style="font-weight: 500;">Hourglass</span>
+                        <a href="#" class="text-decoration-none text-dark">hourglass.app</a>
+                    </div>
+                    <div style="padding-inline-start: 30px;padding-top: 15px;padding-inline-end: 50px;">
+                        <span
+                            style="color:black;background-color: rgb(243, 240, 240);border-radius: 50px;padding:5px 13px;opacity: 0.7;">Churned</span>
+                    </div>
+                    <div style="padding-inline-start: 45px;padding-inline-end: 50px;opacity: 0.8;">
+                        <span>Productivity app</span>
+                        <p>Time management and productivity</p>
+                    </div>
+                    <div style="padding-inline-start: 10px;padding-inline-end: 15px;padding-top: 15px;">
+                        <img src="./image/asset 0.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;border-radius: 100%;position:relative;">
+
+                        <img src="./image/asset 1.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 20px;">
+
+                        <img src="./image/asset 2.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 40px;">
+
+                        <img src="./image/asset 3.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 60px;">
+
+                        <span
+                            style="border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 80px;background-color: rgb(212, 222, 242);color: dodgerblue; padding-inline: 10px;padding-block: 8px;">+4</span>
+
+                    </div>
+
+
+                    <div style="margin-top: 30px;opacity: 0.8;">
+                        <div class="progress bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 9px;width: 250px;">
+                            <div class="progress-bar bg-primary" style="width:30%; "></div>
+                        </div>
+                    </div>
+                    <div class="ms-auto me-4" style="margin-top: 20px;">
+                        <span style="opacity: 0.7;"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row-5 -->
+
+            <div class="row border border-1 bg-white rounded-2">
+                <div class="col-12 p-2 d-flex">
+                    <div style="opacity: 0.9;">
+                        <span class="me-3 d-block" style="font-weight: 500;">Quotient</span>
+                        <a href="#" class="text-decoration-none text-dark">quotient.co</a>
+                    </div>
+                    <div style="padding-inline-start: 40px;padding-top: 15px;padding-inline-end: 50px;">
+                        <span
+                            style="color: rgb(19, 191, 19);background-color: rgb(223, 250, 224);border-radius: 50px;padding:5px 13px;opacity: 0.7;">Customer</span>
+                    </div>
+                    <div style="padding-inline-start: 45px;padding-inline-end: 55px;opacity: 0.8;">
+                        <span>Sales CRM</span>
+                        <p>Web-based sales doc management</p>
+                    </div>
+                    <div style="padding-inline-start: 10px;padding-inline-end: 15px;padding-top: 15px;">
+                        <img src="./image/asset 0.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;border-radius: 100%;position:relative;">
+
+                        <img src="./image/asset 1.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 20px;">
+
+                        <img src="./image/asset 2.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 40px;">
+
+                        <img src="./image/asset 3.png" alt=""
+                            style="height: 40px;width: 40px;border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 60px;">
+
+                        <span
+                            style="border: 2px solid white;  border-radius: 100%;position:relative;z-index: 2;right: 80px;background-color: rgb(212, 222, 242);color: dodgerblue; padding-inline: 10px;padding-block: 8px;">+4</span>
+
+                    </div>
+
+
+                    <div style="margin-top: 30px; opacity: 0.8;">
+                        <div class="progress bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 9px;width: 250px;">
+                            <div class="progress-bar bg-primary" style="width:20%; "></div>
+                        </div>
+                    </div>
+                    <div class="ms-auto me-4" style="margin-top: 20px;">
+                        <span style="opacity: 0.7;"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-4 pb-4 d-flex">
+                <span style="font-weight: 400;">Page</span>
+                <span class="fw-medium">1 of 10</span>
+                <div class="ms-auto">
+                    <button class="btn border border-1 ps-4 pe-4 me-3" style="background-color: white;"><i
+                            class="fa-solid fa-arrow-left-long pe-2" style="opacity: 0.7;"></i>Previous</button>
+                    <button class="btn  border border-1 ps-4 pe-4" style="background-color: white;"><span
+                            class="text-bg-secondary">Next</span><i class="fa-solid fa-arrow-right-long ps-2"
+                            style="opacity: 0.7;"></i></button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

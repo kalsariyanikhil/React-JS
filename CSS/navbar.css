@@ -1,0 +1,77 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    body {
+        background-image: url('/image/modern-1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        max-width: 80%;
+        margin: auto;
+        padding: 1.4rem 1rem;
+        background-color: #3936362b;
+        backdrop-filter: blur(10px);
+        border-radius: 3rem;
+        margin-top: 1rem;
+        box-shadow: 0px 0px 3px rgb(254 116 62);
+    }
+
+    .nav-item {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .nav-item a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding: 0;
+        background-color: transparent;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    li {
+        padding: 0rem 1.1rem;
+        float: left;
+    }
+
+    li a {
+        color: #e96d3f;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: .7px;
+    }
+
+    ul li a {
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+        color: white;
+    }
+
+    @media (max-width:767px) {
+        ul{
+            display: none;
+        }
+
+        .menu{
+            display:block;
+        }
+    }

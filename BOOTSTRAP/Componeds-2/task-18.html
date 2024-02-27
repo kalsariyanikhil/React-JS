@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-18</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="bg-light">
+        <div class="container w-50 mt-5">
+            <form class="border border-1 rounded-3 p-3">
+                <fieldset disabled>
+                    <div class="row">
+                        <div class="mb-3 col-6">
+                            <label for="exampleInputtext1" class="form-label"
+                                style="font-weight: 500;opacity: 0.8; font-size: 14px;">FIRST NAME</label>
+                            <input type="text" class="form-control is-invalid" id="exampleInputtext1"
+                                placeholder="Jane">
+                            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                Please fill out this field.
+                            </div>
+                        </div>
+                        <div class="mb-3 col-6">
+                            <label for="exampleInputtext2" class="form-label"
+                                style="font-weight: 500;opacity: 0.8; font-size: 14px;">LAST NAME</label>
+                            <input type="email" class="form-control" id="exampleInputtext2" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"
+                            style="font-weight: 500;opacity: 0.8; font-size: 14px;">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="*****************">
+                        <div id="emailHelp" class="form-text">Make it as long and as crazy as you'd like</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-4">
+                            <label for="exampleInputtext1" class="form-label"
+                                style="font-weight: 500;opacity: 0.8; font-size: 14px;">CITY</label>
+                            <input type="text" class="form-control" id="exampleInputtext1" placeholder="Albuquerque">
+                        </div>
+
+                        <div class="col-4">
+                            <label for="disabledSelect" class="form-label"
+                                style="font-weight: 500;opacity: 0.8; font-size: 14px;">STATE</label>
+                            <select id="disabledSelect" class="form-select">
+                                <option>New Mexico</option>
+                            </select>
+                        </div>
+
+                        <div class="col-4">
+                            <label for="exampleInputtext1" class="form-label"
+                                style="font-weight: 500;opacity: 0.8; font-size: 14px;">ZIP</label>
+                            <input type="text" class="form-control" id="exampleInputtext1" placeholder="90210">
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
