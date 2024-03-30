@@ -3,10 +3,10 @@ import "./Card.css"
 
 function Card(props) {
     return (
-        
+
         <div className='card-Box mt-6 mx-4 w-[20rem] rounded-2xl overflow-hidden'>
+            
             <div className='img-Box flex items-center content-center py-9 bg-blue-500'>
-                
                 <img src={props.img} className='m-auto block rounded-full w-36' alt={props.Title} />
             </div>
             <div className='cardBody bg-white pb-6'>
@@ -30,5 +30,4 @@ function Card(props) {
         </div>
     )
 }
-    export default Card
-    
+export default Card
