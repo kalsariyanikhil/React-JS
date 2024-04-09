@@ -1,0 +1,87 @@
+ *{
+    padding: 0;
+    margin: 0%;
+}
+.text-font{
+    font-family: 'Poppins', sans-serif;
+}
+*ul li
+{
+    list-style-type: none;
+}
+*a
+{
+    text-decoration: none;
+}
+.feature-box-icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%; 
+    background-color: #ce7c25;
+    margin-left: 130px;
+}
+  .text-6{
+    font-size: 60px;
+    text-align: center;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+}
+/* @keyframes circle{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}  */ 
+.accordion{
+    margin: 30px auto;
+}
+.accordion li{
+    list-style: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+   }
+ label::before{
+    content: '^';
+    font-size: 24px;
+    font-weight: 600;
+}
+input[type="radio"]{
+    display: none;
+} 
+.accordion .content{
+    line-height: 26px;
+    max-height: 0;
+    overflow:hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+ .accordion input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 0px 10px 20px;
+} 
+
+
+.box1::before{
+    position: absolute !important;
+    top: 0% !important;
+    z-index: 1;
+    content: "" !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #ce7c25 !important;
+}

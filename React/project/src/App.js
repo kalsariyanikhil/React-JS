@@ -9,7 +9,7 @@ import logo from './logo.svg';
 // import ComponentA from './Component/ComA';
 
           // Card
-// import Card from './Component/Card';
+import Card from './Component/Card';
 
          // image import
 
@@ -19,13 +19,17 @@ import logo from './logo.svg';
 // import img_4 from "./img/4.jpg"
 // import img_5 from "./img/5.jpg"
 // import img_6 from "./img/6.jpg"
-// import data from './Component/Data';
+            // DATA 
+import data from './Component/Data';
 
           // Emojis Task
 // import Emojis from './Component/Emojis';
 
           // count task
-   import Count from './Component/Count';
+  //  import Count from './Component/Count';
+
+          // table
+  // import Table from './Component/Table';
 
 function App() {
   return (
@@ -49,17 +53,23 @@ function App() {
     //       <Card img={img_6} Name="Akshay" Course="UI UX Design" Discri="The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design,"/>  
 
 
-    //       {data.map((cvalue, ind , arr)=>{ 
-    //         return <Card key={ind} img={cvalue.img}
-    //         Name={cvalue.Name} Discri={cvalue.Discri} Course={cvalue.Course}/>
-    //       })}
+          data.map((cvalue, ind , arr)=>{ 
+            return <Card key={ind} img={cvalue.img}
+            Name={cvalue.Name} Discri={cvalue.Discri} Course={cvalue.Course}/>
+          })
 
-    //       </div> */}
-    //       {/* <Emojis /> */}
+    //  </div> */}
+    //    {/* <Emojis /> */}
+    //  </div>
+
+    // <div>
+    //   <Count/>
     // </div>
-    <div>
-      <Count/>
-    </div>
+
+
+    // <div>
+    //   <Table/>
+    // </div>
 
   );
 }
